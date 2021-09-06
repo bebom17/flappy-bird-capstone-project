@@ -1,5 +1,3 @@
-
-  
 var bird, birdImg;
 var background, backgroundImg;
 var background2,background2Img;
