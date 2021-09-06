@@ -1,3 +1,5 @@
+
+  
 var bird, birdImg;
 var background, backgroundImg;
 var background2,background2Img;
@@ -108,14 +110,14 @@ function pipeRandomPosition(){
 if (frameCount % 75 === 0 ){
   pipe1 = createSprite(150,0,10,100);
   pipe1.addImage(pipe1Img);
-  pipe1.y = random(0,50);
+  pipe1.y = random(0,20);
   pipe1.velocityX = -2;
   pipe1Group.add(pipe1);
   pipe1Group.setLifetimeEach(150);
  
   pipe2 = createSprite(150,520,10,100);
   pipe2.addImage(pipe2Img);
-  pipe2.y = random(462,512);
+  pipe2.y = random(450,500);
   pipe2.velocityX = -2;
   pipe2Group.add(pipe2);
   pipe2Group.setLifetimeEach(150);
